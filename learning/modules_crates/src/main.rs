@@ -39,4 +39,8 @@ fn main() {
     use back_of_house::Appetizer;
     let order1 = Appetizer::Soup;
     let order2 = Appetizer::Salad;
+
+
+    use std::{cmp::Ordering, io};
+    use std::io::{self, Write};
 }
